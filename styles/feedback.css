@@ -1,0 +1,78 @@
+body{
+  margin: 1% 10% 0% 10%;
+}
+
+#main-div{
+  background-color: #eee6f2;
+  text-align: center;
+  padding: 2% 20% 2% 20%;
+}
+
+h1{
+  text-align: center;
+  font-family: arial;
+  color: #500778;
+}
+
+h2{
+  color: black;
+  font-family: arial;
+}
+
+.feedback-detail{
+  font-family: arial;
+  color: grey;
+  font-weight: bold;
+}
+
+table{
+  width: 100%;
+  margin: 2% 0%;
+  table-layout: fixed;
+
+}
+
+td{
+  padding: 2%;
+  text-align: center;
+  font-family: arial;
+  font-size: 1rem;
+  background-color: #f5f7fa;
+}
+
+th{
+  padding: 2%;
+  text-align: center;
+  font-family: arial;
+  font-size: 1rem;
+  word-wrap: normal;
+}
+
+label{
+  display: block;
+  font-family: arial;
+}
+
+textarea{
+  width: 100%;
+  margin: 1% 0%;
+  padding: 1%;
+  color: grey;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.submit{
+  background-color: #500778;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input{
+  accent-color: #500778;
+}
