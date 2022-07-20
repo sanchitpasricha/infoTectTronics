@@ -1,0 +1,54 @@
+body{
+  background: url("../resources/background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  flex-direction: column;
+  font-family: arial;
+  text-align: center;
+  overflow: hidden;
+}
+
+h2{
+  font-family: arial;
+  font-size: 1rem;
+  color: grey;
+}
+
+.main-body{
+  display: flex;
+  padding: 5%;
+  justify-content: space-around;
+}
+
+input[type=text] {
+  background-color: none;
+  padding: 3%;
+  width: 80%;
+  margin-bottom: 5%;
+  border-width: thin;
+  box-sizing:border-box;
+  border-radius: 25px;
+}
+
+.textarea{
+  resize: none;
+  height: 90px;
+  width: 75%;
+  padding: 2%;
+  border-radius: 25px;
+  font-family: arial;
+}
+
+.submitbutton{
+  width: 80%;
+  padding: 3%;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5%;
+  background-image: linear-gradient(to bottom,#500778, #966ade);
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+}

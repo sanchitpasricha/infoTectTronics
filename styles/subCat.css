@@ -15,6 +15,7 @@ body{
   text-align: center;
   top: 0;
   z-index: 1;
+  position: sticky;
 }
 
 input {
@@ -49,6 +50,7 @@ input {
   color: black;
   justify-content: space-between;
   box-shadow: 1px 0.2px 3px;
+  z-index: 1;
 }
 
 .sub-nav h3{
@@ -99,6 +101,8 @@ input {
 
 .review-rating{
   color: grey;
+  display: inline;
+  margin-left: 2%;
 }
 
 .offer-text{
@@ -128,7 +132,7 @@ input {
   background-color: #cbb5d7;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 25px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -149,20 +153,87 @@ input {
   width: 100%;
   height: 200px;
   margin-top: 10%;
+  /* border: 2px solid; */
+
 }
 
 .pecification-table th{
   /* border: solid lightgrey; */
-  border-bottom: 2px lightgrey solid;
   font-size: 2rem;
+  padding: 2%;
 }
 
 .pecification-table ul{
   list-style-type: none;
 }
 
+.pecification-table li{
+  margin-bottom: 20%;
+}
+
+.pecification-table td{
+  padding: 2% 2%;
+  color: grey;
+}
+
 .table-sub-heading{
   font-weight: bold;
-  color: grey;
+  color: black;
   font-size: 1.1rem;
+  padding: 2%;
+  border-top: 2px lightgrey solid;
+}
+
+.similar_products{
+  padding: 2% 2%;
+  box-shadow: 2px 1px 10px grey;
+  margin-top: 3%;
+
+}
+
+.footer{
+  background: #182337;
+  padding: 15%;
+  margin-top: 4%;
+}
+
+.similar_products{
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+}
+
+.similar_products_list{
+  display: flex;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  /* background-color: black; */
+}
+
+.products{
+  /* background-color: red; */
+  padding: 1%;
+  margin: 0% 1% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  font-family: arial;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.badge{
+  width: 20%;
+  padding: 1% 3%;
+  border-radius: 5%;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  display: inline;
+}
+
+.products span{
+  color: green;
+  font-size: 0.8rem;
+  margin-left: 5%;
 }
