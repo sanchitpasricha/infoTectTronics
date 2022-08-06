@@ -3,7 +3,7 @@ body{
 }
 
 #main-div{
-  background-color: #eee6f2;
+  background-color: #f9f5eb;
   text-align: center;
   padding: 2% 20% 2% 20%;
 }
@@ -11,7 +11,7 @@ body{
 h1{
   text-align: center;
   font-family: arial;
-  color: #500778;
+  color: #1d3879;
 }
 
 h2{
@@ -37,7 +37,7 @@ td{
   text-align: center;
   font-family: arial;
   font-size: 1rem;
-  background-color: #f5f7fa;
+  background-color: #f9f5eb;
 }
 
 th{
@@ -63,7 +63,7 @@ textarea{
 }
 
 .submit{
-  background-color: #500778;
+  background-color: #1d3879;
   border: none;
   color: white;
   padding: 15px 32px;
