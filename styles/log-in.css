@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    display: flex;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3rem;
+}
+
+#login-main{
+    height: 100%; 
+    width: 70%;
+    padding: 10rem;
+    /* background-color: grey; */
+}
+
+.main-form__div{
+    /* background-color: red; */
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-form__div h1{
+    font-size: 6rem;
+}
+
+.main-form__div h3{
+    font-size: 2rem;
+    color: grey;
+}
+
+.circle i{
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+form{
+   /* background-color: red; */
+   width: 100%;
+   text-align: center;
+}
+
+input{
+    background-color:antiquewhite;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.btn{
+    color: white;
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.btn__blue{
+    background-color: #607eaa;
+}
+
+.btn__white{
+    color: #607eaa;
+    font-size: large;
+}
+
+h4 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h4:before,
+  h4:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  h4:before {
+    right: 0.5em;
+    margin-left: -100%;
+    width: 30rem;
+  }
+  
+  h4:after {
+    left: 0.5em;
+    margin-right: -100%;
+    width: 25rem;
+  }
+
+#signup-ask{
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(to right bottom, #1d3879, #607eaa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+  #signup-ask h1{
+    font-size: 5rem;
+  }
+
+  #signup-ask h2{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .signup-ask__div{
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+  }
