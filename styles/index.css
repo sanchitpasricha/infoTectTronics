@@ -309,6 +309,9 @@ form.search-box button {
   .overflow_open{
     overflow-y: visible;
   }
+  .info{
+    text-align: center;
+  }
 
 @keyframes sale {
     0%{
